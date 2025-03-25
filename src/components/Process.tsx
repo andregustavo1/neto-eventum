@@ -2,7 +2,7 @@
 import React from 'react';
 import AnimatedSection from './ui/AnimatedSection';
 import ProcessStep from './ui/ProcessStep';
-import { Phone, Truck, Party, Construction } from 'lucide-react';
+import { Phone, Truck, PartyPopper, Construction } from 'lucide-react';
 
 const Process = () => {
   return (
@@ -29,7 +29,7 @@ const Process = () => {
             stepNumber={2}
           />
           <ProcessStep
-            icon={<Party />}
+            icon={<PartyPopper />}
             title="Evento Acontece"
             description="Aproveite seu evento com a tranquilidade de estruturas seguras."
             stepNumber={3}
