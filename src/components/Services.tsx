@@ -19,25 +19,25 @@ const Services = () => {
             icon={<Tent className="text-brand-blue" />}
             title="Tendas Piramidais"
             description="Locação e venda de tendas com diferentes tamanhos para variados tipos de eventos."
-            videoSrc="/public/images/2.mp4"
+            videoSrc="/images/2.mp4"
           />
           <ServiceCard
             icon={<Warehouse className="text-brand-blue" />}
             title="Túneis para Eventos"
             description="Estruturas versáteis para criar ambientes conectados e espaçosos."
-            videoSrc="/public/images/3.mp4"
+            videoSrc="/images/3.mp4"
           />
           <ServiceCard
             icon={<Mic className="text-brand-blue" />}
             title="Palcos e Gradil"
             description="Estruturas seguras para shows, apresentações e controle de público."
-            videoSrc="/public/images/4.mp4"
+            videoSrc="/images/4.mp4"
           />
           <ServiceCard
             icon={<Bath className="text-brand-blue" />}
             title="Banheiros Químicos"
             description="Soluções sanitárias higiênicas e bem mantidas para qualquer evento."
-            videoSrc="/public/images/5.mp4"
+            videoSrc="/images/5.mp4"
           />
         </div>
       </div>
