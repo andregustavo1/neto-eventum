@@ -12,7 +12,7 @@ const About = () => {
           {/* Text Content */}
           <div className="space-y-6">
             <h2 className="text-brand-blue-dark">
-              Neto Tendas: Qualidade e Estrutura para Seu Evento
+              <span className='font-bold'>Neto Tendas & CIA:</span> Qualidade e Estrutura para Seu Evento
             </h2>
             <p className="text-lg">
               Somos especializados em fornecer estruturas completas para eventos, desde pequenas festas a grandes ocasiões. Garantimos segurança, durabilidade e um atendimento personalizado.
@@ -24,10 +24,13 @@ const About = () => {
 
           {/* Image */}
           <div className="rounded-xl overflow-hidden shadow-xl">
-            <img
-              src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-              alt="Equipe Neto Tendas"
+            <video
+              src="/images/1.mp4"
               className="w-full h-full object-cover"
+              controls
+              autoPlay
+              loop
+              muted
             />
           </div>
         </div>

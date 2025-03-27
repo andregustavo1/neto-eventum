@@ -24,8 +24,8 @@ const Header = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="text-2xl font-heading font-bold text-brand-blue-dark">
-          Neto Tendas
+        <a href="#" className="text- font-heading font-bold text-brand-blue-dark">
+          Neto Tendas & CIA
         </a>
 
         {/* Navigation */}

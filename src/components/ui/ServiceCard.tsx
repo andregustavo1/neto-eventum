@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { cn } from '@/lib/utils';
 
@@ -7,10 +6,11 @@ interface ServiceCardProps {
   title: string;
   description?: string;
   imageSrc?: string;
+  videoSrc?: string; // Added videoSrc property
   className?: string;
 }
 
-const ServiceCard = ({ icon, title, description, imageSrc, className }: ServiceCardProps) => {
+const ServiceCard = ({ icon, title, description, imageSrc, videoSrc, className }: ServiceCardProps) => {
   return (
     <div className={cn(
       "group rounded-xl overflow-hidden bg-white shadow-soft transition-all duration-300 hover:shadow-hover",
@@ -29,6 +29,7 @@ const ServiceCard = ({ icon, title, description, imageSrc, className }: ServiceC
         <div className="mb-4 text-brand-blue text-3xl">{icon}</div>
         <h3 className="text-xl font-bold mb-2">{title}</h3>
         {description && <p className="text-gray-600">{description}</p>}
+        {videoSrc && <video src={videoSrc} controls className="service-video" />}
       </div>
     </div>
   );

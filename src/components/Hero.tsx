@@ -7,11 +7,11 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center pt-20">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-brand-blue-dark/40 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/90 to-brand-blue-dark/50 z-10"></div>
         <img
-          src="https://http2.mlstatic.com/D_NQ_NP_761991-MLB40814109924_022020-O-tenda-piramidal-6x6.webp"
+          src="/images/image.png"
           alt="Evento com tendas"
-          className="w-full h-full object-cover blur-sm"
+          className="w-full h-full object-cover"
         />
       </div>
 
